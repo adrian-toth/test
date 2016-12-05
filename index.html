@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>subnet to ip range converter</h1>
+<p>Example: 192.168.0.0/24</p>
+<label>Subnet</label><input id="subnet" name="subnet" value="192.168.0.0/24" onChange="trigger()"/>
+<label>Address</label><input id="ip_addr" name="ip_addr" value="192.168.0.25" onChange="trigger()"/>
+
+<div id="ip_range_start"></div>
+<div id="ip_range_end"></div>
+<div id="debug"></div>
+
+<script src="subnet.js"></script>
+
+</body>
+</html>
