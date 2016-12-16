@@ -11,7 +11,15 @@
 <div id="ip_range_end"></div>
 <div id="debug"></div>
 
+<h1>ip range to subnet converter</h1>
+<p>Example: 192.168.0.1 - 192.168.0.255</p>
+<label>From</label><input id="ip_min" name="ip_min" value="192.168.0.1" onChange="trigger2()"/>
+<label>To</label><input id="ip_max" name="ip_max" value="192.168.0.254" onChange="trigger2()"/>
+
+
+
 <script src="subnet.js"></script>
+<script src="IPv4SubnetUtils.js"></script>
 
 </body>
 </html>
